@@ -18,7 +18,7 @@ from matplotlib.offsetbox import OffsetImage
 from matplotlib.font_manager import FontProperties
 
 from plottoolbar import PlotToolbar
-from matplotlib.backends.backend_wx import FigureCanvasWx as PlotFigureCanvas
+from matplotlib.backends.backend_wxagg import FigureCanvasWxAgg as PlotFigureCanvas
 
 NUM_GRID_LINES = 5
 MOTION_DISPLAY_FONT_SIZE = 3
